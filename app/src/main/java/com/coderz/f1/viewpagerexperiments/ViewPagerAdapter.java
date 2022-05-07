@@ -23,14 +23,6 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
     @NonNull
     @Override
     public Fragment createFragment(int position) {
-//        if(fragments.get(position)instanceof TextFragment){
-//            TextFragment fragment = (TextFragment) fragments.get(position);
-//            return TextFragment.newInstance(fragment.title);
-//        }
-//        if(fragments.get(position) instanceof ImageFragment){
-//            ImageFragment fragment = (ImageFragment) fragments.get(position);
-//            return ImageFragment.newInstance(fragment.title);
-//        }
         return fragments.get(position);
     }
 
